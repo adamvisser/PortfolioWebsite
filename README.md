@@ -1,2 +1,2 @@
 # PortfolioWebsiteTheme
-This is my portfolio websites theme, right now its built in wordpress.... right now.
+This is my portfolio website git repo. So you can see how I built everything out!

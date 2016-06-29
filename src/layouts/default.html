@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Adam Visser</title>
+		<link rel="stylesheet" href="{{root}}css/app.css">
+		<link rel="stylesheet" href="{{root}}css/semantic.css">
+
+		<script src="{{root}}js/app.js"></script>
+	</head>
+	<body>
+		{{> navigation}}
+		<div class="pusher">
+			<div class="ui top attached menu">
+				<a class="item">
+					<i class="sidebar icon"></i>Menu
+				</a>
+			</div>	
+			
+			<div class="ui bottom attached segment">
+				<div class="ui grid">
+					{{> body}}
+				</div>
+			</div>
+		</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			setupHome();
+		});
+	</script>	
+	</body>
+</html>

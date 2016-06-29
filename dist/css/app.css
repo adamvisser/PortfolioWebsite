@@ -1,0 +1,51 @@
+/*!
+Theme Name: CloudSec Modern Theme
+Theme URI: http://cloudsecurity.autodesk.com
+Author: Adam Visser
+Author URI: 
+Description: Theme for the Autodesk Cloud Security Wordpress Website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: cloud security
+Textdomain: notsure
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#landing {
+  width: 100%;
+  height: 540px;
+  background: url(/img/Adam_Visser_Busy_Coding.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0px; }
+  #landing .five {
+    height: 100%; }
+    #landing .five .vertical {
+      height: 100%;
+      padding-top: 40px;
+      padding-left: 20px;
+      padding-bottom: 40px; }
+  #landing .six {
+    padding-top: 40px; }
+
+#summary {
+  height: 75px;
+  margin: 0; }
+
+#breakdown {
+  margin: 0; }
+  #breakdown #projects {
+    padding-top: 5%;
+    padding-bottom: 5%; }
+  #breakdown #resume {
+    padding-top: 5%;
+    padding-bottom: 5%; }
+  #breakdown #contact {
+    padding-top: 5%;
+    padding-bottom: 5%; }
+  #breakdown #hobbies {
+    padding-top: 5%;
+    padding-bottom: 5%; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBOzs7Ozs7Ozs7Ozs7OztFQWNFO0FBRUY7RUFDQyxZQUFZO0VBQ1osY0FBYztFQUNkLGdGQUErRTtFQUkvRSx1QkFBdUI7RUFDdkIsWUFBWSxFQWdCWjtFQXhCRDtJQVdFLGFBQWEsRUFRYjtJQW5CRjtNQWFHLGFBQWE7TUFDYixrQkFBa0I7TUFDbEIsbUJBQW1CO01BQ25CLHFCQUFxQixFQUNyQjtFQWpCSDtJQXNCRSxrQkFBa0IsRUFDbEI7O0FBR0Y7RUFDQyxhQUFhO0VBQ2IsVUFBVSxFQWlCVjs7QUFJRDtFQUNDLFVBQVUsRUFxQlY7RUF0QkQ7SUFJRSxnQkFBZ0I7SUFDaEIsbUJBQW1CLEVBQ25CO0VBTkY7SUFTRSxnQkFBZ0I7SUFDaEIsbUJBQW1CLEVBQ25CO0VBWEY7SUFjRSxnQkFBZ0I7SUFDaEIsbUJBQW1CLEVBQ25CO0VBaEJGO0lBbUJFLGdCQUFnQjtJQUNoQixtQkFBbUIsRUFDbkIiLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLyohXG5UaGVtZSBOYW1lOiBDbG91ZFNlYyBNb2Rlcm4gVGhlbWVcblRoZW1lIFVSSTogaHR0cDovL2Nsb3Vkc2VjdXJpdHkuYXV0b2Rlc2suY29tXG5BdXRob3I6IEFkYW0gVmlzc2VyXG5BdXRob3IgVVJJOiBcbkRlc2NyaXB0aW9uOiBUaGVtZSBmb3IgdGhlIEF1dG9kZXNrIENsb3VkIFNlY3VyaXR5IFdvcmRwcmVzcyBXZWJzaXRlLlxuVmVyc2lvbjogMS4wXG5MaWNlbnNlOiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2MiBvciBsYXRlclxuTGljZW5zZSBVUkk6IGh0dHA6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy9ncGwtMi4wLmh0bWxcblRhZ3M6IGNsb3VkIHNlY3VyaXR5XG5UZXh0ZG9tYWluOiBub3RzdXJlXG5cblRoaXMgdGhlbWUsIGxpa2UgV29yZFByZXNzLCBpcyBsaWNlbnNlZCB1bmRlciB0aGUgR1BMLlxuVXNlIGl0IHRvIG1ha2Ugc29tZXRoaW5nIGNvb2wsIGhhdmUgZnVuLCBhbmQgc2hhcmUgd2hhdCB5b3UndmUgbGVhcm5lZCB3aXRoIG90aGVycy5cbiovXG5cbiNsYW5kaW5ne1xuXHR3aWR0aDogMTAwJTtcblx0aGVpZ2h0OiA1NDBweDtcblx0YmFja2dyb3VuZDogdXJsKC9pbWcvQWRhbV9WaXNzZXJfQnVzeV9Db2RpbmcuanBnKSBuby1yZXBlYXQgY2VudGVyIGNlbnRlciBmaXhlZDtcblx0LXdlYmtpdC1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuXHQtbW96LWJhY2tncm91bmQtc2l6ZTogY292ZXI7XG5cdC1vLWJhY2tncm91bmQtc2l6ZTogY292ZXI7XG5cdGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG5cdG1hcmdpbjogMHB4O1xuXG5cdC5maXZle1xuXHRcdGhlaWdodDogMTAwJTtcblx0XHQudmVydGljYWx7XG5cdFx0XHRoZWlnaHQ6IDEwMCU7XG5cdFx0XHRwYWRkaW5nLXRvcDogNDBweDtcblx0XHRcdHBhZGRpbmctbGVmdDogMjBweDtcblx0XHRcdHBhZGRpbmctYm90dG9tOiA0MHB4O1xuXHRcdH1cblx0XHRcblx0fVxuXG5cdC5zaXh7XG5cdFx0cGFkZGluZy10b3A6IDQwcHg7XG5cdH1cbn1cblxuI3N1bW1hcnl7XG5cdGhlaWdodDogNzVweDtcblx0bWFyZ2luOiAwO1xuXG5cdC5wcm9qZWN0c3tcblx0XHRcblx0fVxuXG5cdC5yZXN1bWV7XG5cdFx0XG5cdH1cblxuXHQuY29udGFjdHtcblx0XHRcblx0fVxuXG5cdC5ob2JiaWVze1xuXHRcdFxuXHR9XG59XG5cblxuXG4jYnJlYWtkb3due1xuXHRtYXJnaW46IDA7XG5cdFxuXHQjcHJvamVjdHN7XG5cdFx0cGFkZGluZy10b3A6IDUlO1xuXHRcdHBhZGRpbmctYm90dG9tOiA1JTtcblx0fVxuXG5cdCNyZXN1bWV7XG5cdFx0cGFkZGluZy10b3A6IDUlO1xuXHRcdHBhZGRpbmctYm90dG9tOiA1JTtcblx0fVxuXG5cdCNjb250YWN0e1xuXHRcdHBhZGRpbmctdG9wOiA1JTtcblx0XHRwYWRkaW5nLWJvdHRvbTogNSU7XG5cdH1cblxuXHQjaG9iYmllc3tcblx0XHRwYWRkaW5nLXRvcDogNSU7XG5cdFx0cGFkZGluZy1ib3R0b206IDUlO1xuXHR9XG59Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */
