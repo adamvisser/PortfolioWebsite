@@ -41,6 +41,21 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	}
 }
 
+#contactlanding{
+	width: 100%;
+	background: url(/img/jeep-banner.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+
+	h1{
+		font-size: 2.5em;
+		line-height: 2.8em;
+	}
+}
+
 #hobbieslanding{
 	width: 100%;
 	background: url(/img/jeep-banner.jpg) no-repeat center center fixed;
