@@ -39,3 +39,63 @@ function randomFadeInAndOut($selector){
 		})
 	;
 }
+
+
+
+function flashyChainHome(){
+	homeFlashyChainTitleHide();
+}
+
+
+
+
+/*
+Dont touch the below
+*/
+function homeFlashyChainTitleHide(){
+	$('#title')
+		.transition({
+			animation  : 'tada',
+			duration   : '.5s',
+		})
+		.transition({
+			animation  : 'scale',
+			onComplete : function() {
+				homeFlashyChainQuoteSlideIn();
+			}
+		})
+	;
+}
+
+function homeFlashyChainQuoteSlideIn(){
+	$('#quote')
+		.transition({
+			animation  : 'scale',
+			duration   : '.5s',
+		})
+		.transition({
+			animation  : 'tada',
+			onComplete : function() {
+				homeFlashyChainMenuTitleShow();
+			}
+		})
+	;
+}
+
+function homeFlashyChainMenuTitleShow(){
+	$('#menuAdamHeader')
+		.transition({
+			animation  : 'scale',
+			duration   : '.5s',
+		})
+		.transition({
+			animation  : 'tada',
+			onComplete : function() {
+				console.log('did the flashy home chain stuff');
+			}
+		})
+	;
+}
+/*
+Dont touch the above
+*/
