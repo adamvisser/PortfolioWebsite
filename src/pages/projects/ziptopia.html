@@ -1,0 +1,43 @@
+---
+layout: project
+---
+
+
+
+
+<div id="projectslanding" class="ui grid">
+	<div class="row">
+		<div class="fourteen wide centered column">
+			<h1 class="ui header">Ziptopia Data Mine</h1>
+			<p>I am currently data mining an autonomous car simulation for my "12 week challenge" and I need your help!!!! Read below to find out how you can offer up your spare CPU time.</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="ui bottom attached segment">
+	<div class="ui grid">
+		<div class="row">
+			<div class="eight wide centered column">
+				<h2 class="ui centered header">How You Can Help</h2>
+				<p>Since this is a fake world that I am collecting data on, I need people to use their computers to run this fake world, and send me the data on it. This works by having you (the helper) go to the ZipCar Coding Challenge page, click on the button to take the challenge, <a href="">copy paste the code found here into the text area seen on the coding challenge page.</a> With that code copied into place, simply clicking the run button once, and letting the browser window/tab do its work will ensure that I get all the data needed.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="five wide left floated column">
+				<h3>How does this work?</h3>
+				<p>ZipCar created a coding challenge in javascript which allows you to control 5 cars in this fake world. The goal is to have those 5 cars move around the world acting as a taxi service. Since this is client side javascript the code is minified making it near impossible to read and follow when attempting to reverse engineer. The code that the helpers copy paste into the text area sends the movement of the people through the world to my server. As the data on the peoples movements is collected that data can be correlated amongst itself to find patters including (but not limited to) building most traveled to/from, where people wait at the longest/shortest, or if there are routes that the cars could (in theory) pick up users as they are walking to and from a building.</p>
+			</div>
+			<div class="five wide centered column">
+				<h3>How can the data be viewed?</h3>
+				<p>As the data is collected into an SQL database an API has been setup to pull the data from the database itself. This API is setup to not use any sort of caching specificly to offer training oppurtunities in response times. The API is used by an Angular Front end which has been integrated with <a href="http://www.highcharts.com/demo" target="_blank">High Charts</a> to allow for easy visualization of the data. Thusly any data that a user wants to view is generated real time by the server, and rendered on the client side. Future plans include</p>
+			</div>
+			<div class="five wide right floated column">
+				<h3>What will be done with the data?</h3>
+				<p>As ZipCar is watching and keeping track of who completes this challenge I will be trying to beat every other users score. By changing the data mining algorithm, into an api that gives the vehicles their actions, in theory I could have an AI running the cars that operates at a higher effeciency than a philospher would be able to theorize. Only time will tell on that front as for now, the main thing being done with the data is learning ways to run very large reports with a high level of effeciency.</p>
+			</div>
+		</div>
+	</div>
+</div>
