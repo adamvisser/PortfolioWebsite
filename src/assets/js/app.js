@@ -1,7 +1,4 @@
-function setupHome(){
-	setupSmoothScroll();
-	seutpSideMenu();
-}
+
 
 function seutpSideMenu(){
 	$('.ui.sidebar').sidebar({
