@@ -1,0 +1,47 @@
+{% extends "layouts/default.html" %}
+
+
+
+{% block content %}
+<div class="ui grid">
+
+<div class="row">
+	<div class="four wide column">
+		<a href="/AdamVisserResume.PDF" target="_blank">Download my Resume in PDF</a>
+	</div>
+	<div class="six wide column">
+		<div class="ui fluid blue segment">
+			<h1 class="ui blue centered header">Adam Visser's Resume</h1>
+			<p class="ui blue centered small header">Passion for Programming</p>
+		</div>
+	</div>
+</div>
+<div id="resume" class="row">
+	<div class="twelve wide column">
+		<div class="experience ui fluid green segment">
+			{% include "pages/partials/tableExperience.html" %}
+		</div>
+
+		<div class="education ui fluid orange segment">
+			{% include "pages/partials/tableEducation.html" %}
+		</div>
+	</div>
+	<div class="languages four wide column">
+		{% include "pages/partials/tableLanguages.html" %}
+		{% include "pages/partials/tableSkills.html" %}
+		{% include "pages/partials/tableFrameworks.html" %}
+	</div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+$('.rating')
+  .rating({
+    maxRating: 11,
+    interactive: false,
+  })
+;
+</script>
+
+{% endblock %}

@@ -1,0 +1,186 @@
+
+
+
+
+
+
+{% block content %}
+<div id="breakdown" class="ui inverted fluid segment">
+	<div id="projects" class="ui grid">
+		<div class="eight wide centered column">
+			<h2 class="ui red centered huge header">Projects</h2>
+			<div class="ui fluid piled red segment">
+				<p>As a Full Stack Engineer, it is vital to continually maintain a diverse project portfolio. The ability to adeptly switch between different web stack types is key to any successful Full Stack Engineer. Here is a snapshot and link to my many assorted and challenging projects.</p>
+				<div class="ui divider"></div>
+				<a href="projects.html" class="ui fluid link card">
+					
+					<div class="content">
+						<div class="ui four cards">
+							<div class="card">
+								<div class="image">
+									<img src="{% static 'img/sdlc.jpg' %}">
+								</div>
+							</div>
+							<div class="card">
+								<div class="image">
+									<img src="{% static 'img/elysiumhome.png' %}">
+								</div>
+							</div>
+							<div class="card">
+								<div class="image">
+									<img src="{% static 'img/avnet-patch-panel.jpg' %}">
+								</div>
+							</div>
+							<div class="card">
+								<div class="image">
+									<img src="{% static 'img/two-americans.jpg' %}">
+								</div>
+							</div>
+						</div>
+						<div class="ui red centered header">Adam's Projects</div>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+		<div class="four wide right floated column">
+			<div class="ui cards">
+				{% include "projects/partials/cards/cardGrowbotix.html" %}
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="resume" class="ui grid">
+		<div class="four wide left floated column">
+			<div class="ui right cards">
+				{% include "projects/partials/cards/cardZiptopia.html" %}
+			</div>
+		</div>
+		<div class="eight wide centered column">
+			<h2 class="ui orange centered huge header">Resume</h2>
+			<div class="ui fluid piled orange segment">
+				<p>I am well versed in numerous programming languages, and I do have my preferences and rational for each one. I have comprehensive experience with many coding environments and complexities similar to my project experience. My coding foundation, personal projects and professional experience keep my skill set current for any new opportunity and challenge.</p>
+				<div class="ui divider"></div>
+				<a href="resume.html" class="ui fluid link card">
+					<div class="centered content">
+						
+						<p>The frameworks in Adam's wheelhouse...</p>
+						<ul>
+							<li id="1">AngularJS</li>
+							<li id="2">Tornado</li>
+							<li id="11">Django</li>
+							<li id="3">Laravel</li>
+							<li id="4">Semantic UI</li>
+							<li id="5">Arduino</li>
+							<li id="6">Raspbery PI GPIO</li>
+							<li id="7">Gulp</li>
+							<li id="10">Browser Sync</li>
+							<li id="8">Panini</li>
+							<li id="9">JQuery</li>
+							<li id="stop">Need to see the list again?</li>
+						</ul>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="contact" class="ui grid">
+
+		<div class="eight wide centered column">
+			<h2 class="ui green centered huge header">Contact</h2>
+			<div class="ui fluid piled green segment">
+				<p>Get in touch with Adam!</p>
+				<a class="ui fluid green button" href="contact.html" class="ui green button">Contact Adam</a>
+				<div class="ui divider">Or</div>
+				<div class="ui fluid buttons">
+					<a class="ui button" href="https://github.com/adamvisser"><i class="github square icon"></i>Github</a>
+					<a class="ui button" href="https://www.linkedin.com/in/adamvissertheshark"><i class="linkedin square icon"></i>LinkedIn</a>
+					<a class="ui button" href="https://twitter.com/SharkfaceThinks"><i class="twitter square icon"></i>Twitter</a>
+				</div>
+			</div>
+		</div>
+		<div class="four wide right floated column">
+			<div class="ui cards">
+				{% include "projects/partials/cards/cardBattleship.html" %}
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="hobbies" class="ui grid">
+		<div class="four wide left floated column">
+			<div class="ui right cards">
+				{% include "projects/partials/cards/cardInternalSite.html" %}
+			</div>
+		</div>
+		<div class="eight wide centered column">
+			<h2 class="ui yellow centered huge header">Personal Interests</h2>
+			<div class="ui fluid piled yellow segment">
+				<p>If you are super curious, check out my personal interests and hobbies which take up my remaining free time!</p>
+				<div class="ui divider"></div>
+				<a href="hobbies.html" class="ui fluid link card">
+					<img class="ui fluid image" src="{% static 'img/beach-banner.jpg' %}">
+					<div class="centered content">
+						<div class="ui yellow centered header">Personal Interests and Hobbies</div>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div id="summary" class="ui inverted segment">
+		<div class="ui grid">
+			<div class="projects four wide column">
+				<a class="ui animated fluid inverted red fade button" tabindex="0" href="#projects">
+					<div class="visible content">Projects</div>
+					<div class="hidden content">
+						<i class="coffee icon"></i>Click for an overview on Adam's projects!
+					</div>
+				</a>
+			</div>
+			<div class="resume four wide column">
+				<a class="ui animated fluid inverted orange fade button" tabindex="0" href="#resume">
+					<div class="visible content">Resume</div>
+					<div class="hidden content">
+						<i class="calendar icon"></i>Click for an overview on Adam's resume!
+					</div>
+				</a>
+			</div>
+			<div class="contact four wide column">
+				<a class="ui animated fluid inverted green fade button" tabindex="0" href="#contact">
+					<div class="visible content">Contact</div>
+					<div class="hidden content">
+						<i class="file word outline icon"></i>Click for Adam's contact info!
+					</div>
+				</a>
+			</div>
+			<div class="hobbies four wide column">
+				<a class="ui animated fluid inverted yellow fade button" tabindex="0" href="#hobbies">
+					<div class="visible content">Hobbies</div>
+					<div class="hidden content">
+						<i class="space shuttle icon"></i>Click for an overview Adam's hobbies!
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

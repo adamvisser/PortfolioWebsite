@@ -1,0 +1,42 @@
+
+
+
+{% block content %}
+<div id="landing" class="ui grid">
+	<div class="row">
+		<div class="fourteen wide centered column">
+			<div class="ui grid">
+				<div class="five wide left floated column">
+					<div class="ui vertical labeled icon buttons">
+						<a id="projectsLink" class="ui huge red button" href="#projects"><i class="coffee icon"></i>Projects</a>
+						<a id="resumeLink" class="ui huge orange button" href="#resume"><i class="file word outline icon"></i>Resume</a>
+						<a id="contactLink" class="ui huge green button" href="#contact"><i class="mail outline icon"></i>Contact</a>
+						<a id="hobbiesLink" class="ui huge yellow button" href="#hobbies"><i class="space shuttle icon"></i>Hobbies</a>
+					</div>
+				</div>
+				
+
+				<div id="quote" class="six wide centered column">
+					<div class="ui fluid piled segment">
+						<p>"Just remember, you can’t climb the ladder of success with your hands in your pockets."</p>
+						<div class="ui divider"></div>
+						<p class="ui centered header">Arnold Schwarzenegger</p>
+					</div>
+				</div>
+
+
+				<div id="title" class="six wide centered column">
+					<div class="ui fluid piled segment">
+						<div class="item">
+							<h1 id="menuTitle" class="ui blue centered header">Adam Visser</h1>
+							<h2 id="menuSubTitle" class="ui small teal centered header">Passion for Programming</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+	</div>
+</div>
+{% include "page/partials/needhelp.html" %}
+{% endblock %}
